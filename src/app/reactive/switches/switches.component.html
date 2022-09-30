@@ -1,1 +1,80 @@
-<p>switches works!</p>
+<h3>Template: Switches</h3>
+<hr />
+
+<form>
+  <div class="row mb-3">
+    <label for="" class="col-sm-3 col-form-label">Genero</label>
+    <div class="col-sm-9">
+      <div class="form-check">
+        <input
+          type="radio"
+          class="form-check-input"
+          value="M"
+          name="genero"
+          id="radioMaculino"
+          required
+        />
+        <label for="radioMaculino" class="form-check-label"
+          >Default Radio</label
+        >
+      </div>
+      <div class="form-check">
+        <input
+          type="radio"
+          class="form-check-input"
+          value="F"
+          name="genero"
+          id="radioFemenino"
+          required
+        />
+        <label for="radioFemenino" class="form-check-label"
+          >Default Radio</label
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <label for="" class="col-sm-3 col-form-label">Notificaciones</label>
+    <div class="col-sm-9">
+      <div class="form-check form-switch">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          name="notificaciones"
+          id="notificaciones"
+          checked
+          required
+        />
+        <label for="notificaciones" class="form-check-label"
+          >Quiero recibir notificaciones</label
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <label for="" class="col-sm-3 col-form-label">
+      Terminos y condiciones
+    </label>
+    <div class="col-sm-9">
+      <div class="form-check">
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="2c"
+          checked
+          name="terminosYCondiciones"
+          required
+        />
+        <label for="2c" class="form-check-label">Terminos y condiciones</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <button class="btn btn-primary float-end">Guardar</button>
+    </div>
+  </div>
+</form>
